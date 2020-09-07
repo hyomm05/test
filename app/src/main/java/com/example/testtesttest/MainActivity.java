@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         Button button3 = findViewById(R.id.bubblingFolder );
         Button button4 = findViewById(R.id.bubblingMemo );
         Button button5 = findViewById(R.id.bubblingFace );
-        Button button6 = findViewById(R.id.Howtouse );
+        Button button6 = findViewById(R.id.howtouse);
 
         View.OnClickListener Buttons=new View.OnClickListener(){
             public void onClick(View v) {
@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
                         Intent in5 = new Intent(MainActivity.this, BubblingFaceActivity.class);
                         startActivity(in5);
                         break;
-                    case R.id.Howtouse:
+                    case R.id.howtouse:
                         Intent in6 = new Intent(MainActivity.this, HowtouseActivity.class);
                         startActivity(in6);
                         break;

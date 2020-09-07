@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/how_graback"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="30px"
+        app:srcCompat="@drawable/how_title" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30px">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/howphoto"
+                android:layout_width="360dp"
+                android:layout_height="98dp"
+                android:layout_marginLeft="72px"
+                android:layout_marginBottom="72px"
+                android:background="@drawable/how_photo" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/howgallery"
+                android:layout_width="360dp"
+                android:layout_height="98dp"
+                android:layout_marginLeft="72px"
+                android:layout_marginBottom="72px"
+                android:background="@drawable/how_gallery" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/howfolder"
+                android:layout_width="360dp"
+                android:layout_height="98dp"
+                android:layout_marginLeft="72px"
+                android:layout_marginBottom="72px"
+                android:background="@drawable/how_folder" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/howmemo"
+                android:layout_width="360dp"
+                android:layout_height="98dp"
+                android:layout_marginLeft="72px"
+                android:layout_marginBottom="72px"
+                android:background="@drawable/how_memo" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/howface"
+                android:layout_width="360dp"
+                android:layout_height="98dp"
+                android:layout_marginLeft="72px"
+                android:layout_marginBottom="72px"
+                android:background="@drawable/how_face" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

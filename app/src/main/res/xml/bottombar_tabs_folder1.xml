@@ -8,6 +8,7 @@
     <tab
         id="@+id/tab_folder"
         icon="@drawable/bubblingfolder"
+
         title="Refresh"
         />
     <tab
