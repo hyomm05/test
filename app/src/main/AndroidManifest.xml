@@ -68,8 +68,32 @@
             />
 
         <activity
+            android:name=".HowtoPhotoActivity"
+            android:label="HowtousePhoto"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+
+        <activity
             android:name=".HowtoGalleryActivity"
             android:label="HowtouseGallery"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+
+        <activity
+            android:name=".HowtoFolderActivity"
+            android:label="HowtouseFolder"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+
+        <activity
+            android:name=".HowtoMemoActivity"
+            android:label="HowtouseMemo"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+
+        <activity
+            android:name=".HowtoFaceActivity"
+            android:label="HowtouseFace"
             android:theme="@style/AppTheme.NoActionBar"
             />
 
