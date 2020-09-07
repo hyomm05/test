@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(in5);
                         break;
                     case R.id.howtouse:
-                        Intent in6 = new Intent(MainActivity.this, HowtouseActivity.class);
+                        Intent in6 = new Intent(MainActivity.this, HowtoUseActivity.class);
                         startActivity(in6);
                         break;
                 }
