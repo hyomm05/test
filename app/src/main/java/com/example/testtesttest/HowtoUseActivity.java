@@ -1,4 +1,5 @@
 package com.example.testtesttest;
+
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
@@ -6,6 +7,8 @@ import android.os.Build;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
@@ -15,7 +18,6 @@ public class HowtoUseActivity extends MainActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.how_to_use);
         // 화면 전환 - 인텐트 날리기 (startActivity)
@@ -39,12 +41,13 @@ public class HowtoUseActivity extends MainActivity {
         a.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+              //  CustomDialog customDialog = new CustomDialog(HowtoUseActivity.this);
                 Intent intent = new Intent(
                         getApplicationContext(), // 현재 화면의 제어권자
                         HowtoPhotoActivity.class); // 다음 넘어갈 클래스 지정
                 intent.addFlags (Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(intent); // 다음 화면으로 넘어간다
-            }
+           }
         });
 
         Button b = (Button) findViewById(R.id.howgallery);

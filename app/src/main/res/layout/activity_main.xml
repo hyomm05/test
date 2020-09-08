@@ -41,7 +41,14 @@
             android:background="?attr/colorPrimary"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme" />
-
+<!--
+        <Button
+            android:id="@+id/app_close"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginTop="50px"
+            android:background="@drawable/home_close" />
+!-->
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"

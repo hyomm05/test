@@ -14,6 +14,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
+    BackPressedForFinish backPressedForFinish;
+
     String[] permission_list = {
             //5g 핸드폰의 경우
             android.Manifest.permission.WRITE_EXTERNAL_STORAGE,
@@ -29,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        backPressedForFinish = new BackPressedForFinish(this);
 
         checkPermission();
         ///////툴바랑 하단메뉴바 설정중
@@ -118,6 +121,15 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     //////////////////>권한 설정
+
+    /*
+    @Override
+    public void onBackPressed() {
+
+        // BackPressedForFinish 클래시의 onBackPressed() 함수를 호출한다.
+        backPressedForFinish.onBackPressed();
+    }
+*/
 }
     /*Intent in = new Intent(MainActivity.this, AllalbumActivity.class);
     startActivity(in);*/
